@@ -28,7 +28,7 @@ export function InsereSenha(){
         
     }
     return(
-        <View style={{ backgroundColor: 'white', marginTop: 70, width: "80%" }}>
+        <View style={{ backgroundColor: 'white', marginTop: 70, width: "80%",flex:0.3}}>
             <Button title="Criar senha" onPress={() => insert()} />
         </View>
     )
